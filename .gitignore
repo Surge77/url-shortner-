@@ -1,11 +1,52 @@
-# Node
+# Dependencies
 node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
 .env
+.env.local
+.env.development
+.env.production
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
 
 # Client builds
 client/dist
 client/build
+client-app/url-shortner-app/dist
+
+# Server builds
+server-app/dist
 
 # Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.cache/
+temp/
+tmp/
