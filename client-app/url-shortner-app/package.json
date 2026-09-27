@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
-    "axios": "^1.13.2",
+    "axios": "^1.18.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-router-dom": "^7.12.0",
+    "react-router-dom": "^7.18.4",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
@@ -29,6 +29,6 @@
     "globals": "^16.5.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
-    "vite": "^7.2.4"
+    "vite": "^7.3.6"
   }
 }
